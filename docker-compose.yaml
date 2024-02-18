@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+
+  database:
+
+    container_name: college-tests-project-database
+
+    build: ./CollegeTestsProject-Database/
+
+    ports:
+      - "5400:5432"
